@@ -1,0 +1,190 @@
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TableRow
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageproduct1"
+                android:layout_width="225dp"
+                android:layout_height="126dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+
+            <TextView
+                android:id="@+id/description1"
+                android:layout_width="59dp"
+                android:layout_height="94dp"
+                android:text="Product 1" />
+
+            <Button
+                android:id="@+id/btnproduct1"
+                android:layout_width="108dp"
+                android:layout_height="match_parent"
+                android:text="Add to Cart" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageproduct2"
+                android:layout_width="225dp"
+                android:layout_height="126dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+
+            <TextView
+                android:id="@+id/description2"
+                android:layout_width="59dp"
+                android:layout_height="94dp"
+                android:text="Product 1" />
+
+            <Button
+                android:id="@+id/btnproduct2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Add to Cart" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageproduct3"
+                android:layout_width="225dp"
+                android:layout_height="126dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+
+            <TextView
+                android:id="@+id/description3"
+                android:layout_width="59dp"
+                android:layout_height="94dp"
+                android:text="Product 1" />
+
+            <Button
+                android:id="@+id/btnproduct3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Add to Cart" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageproduct4"
+                android:layout_width="225dp"
+                android:layout_height="126dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+
+            <TextView
+                android:id="@+id/description4"
+                android:layout_width="59dp"
+                android:layout_height="94dp"
+                android:text="Product 1" />
+
+            <Button
+                android:id="@+id/btnproduct4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Add to Cart" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageproduct5"
+                android:layout_width="225dp"
+                android:layout_height="126dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+
+            <TextView
+                android:id="@+id/description5"
+                android:layout_width="59dp"
+                android:layout_height="94dp"
+                android:text="Product 1" />
+
+            <Button
+                android:id="@+id/btnproduct5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Add to Cart" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageproduct6"
+                android:layout_width="225dp"
+                android:layout_height="126dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+
+            <TextView
+                android:id="@+id/description6"
+                android:layout_width="59dp"
+                android:layout_height="94dp"
+                android:text="Product 1" />
+
+            <Button
+                android:id="@+id/btnproduct6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Add to Cart" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageproduct7"
+                android:layout_width="225dp"
+                android:layout_height="126dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+
+            <TextView
+                android:id="@+id/description7"
+                android:layout_width="59dp"
+                android:layout_height="94dp"
+                android:text="Product 1" />
+
+            <Button
+                android:id="@+id/btnproduct7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Add to Cart" />
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:padding="20dp"
+        tools:srcCompat="@tools:sample/avatars[3]" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <TableRow
+            android:padding="20dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:text="Login As Customer"
+                android:layout_width="match_parent"
+                android:layout_height="37dp" />
+        </TableRow>
+
+        <TableRow
+            android:padding="20dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:text="Login As Company Associates"
+                android:layout_width="match_parent"
+                android:layout_height="37dp" />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</LinearLayout>
