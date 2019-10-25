@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="460dp"
         android:padding="20dp"
-        tools:srcCompat="@tools:sample/avatars[3]" />
+        tools:srcCompat="@drawable/logo2" />
 
     <TableLayout
         android:layout_width="wrap_content"
@@ -25,7 +25,9 @@
             <Button
                 android:text="Login As Customer"
                 android:layout_width="match_parent"
-                android:layout_height="37dp" />
+                android:layout_height="37dp"
+                android:id="@+id/customer"
+                android:onClick="custlgn"/>
         </TableRow>
 
         <TableRow
@@ -35,7 +37,9 @@
             <Button
                 android:text="Login As Company Associates"
                 android:layout_width="match_parent"
-                android:layout_height="37dp" />
+                android:layout_height="37dp"
+                android:id="@+id/company"
+                android:onClick="emplgn"/>
         </TableRow>
 
 

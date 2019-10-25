@@ -20,6 +20,7 @@
     <Button
         android:padding="20dp"
         android:id="@+id/btnshopping"
+        android:onClick="shoppingcontinue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Continue Shopping" />
@@ -27,6 +28,7 @@
     <Button
         android:padding="20dp"
         android:id="@+id/btnlogout"
+        android:onClick="cstlogout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LogOut" />

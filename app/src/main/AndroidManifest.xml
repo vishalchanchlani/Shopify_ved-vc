@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".productpage"></activity>
+        <activity android:name=".orderlist" />
+        <activity android:name=".orderconfirm" />
+        <activity android:name=".cartpage" />
+        <activity android:name=".employeelogin" />
+        <activity android:name=".customerlogin" />
+        <activity android:name=".loginscreen" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

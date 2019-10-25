@@ -31,16 +31,18 @@
         android:layout_weight="1"
         android:gravity="center|bottom"
         android:orientation="vertical">
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Update Status" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Status" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="LogOut"
-        android:paddingBottom="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LogOut"
+            android:id="@+id/emplogoutbutton"
+            android:onClick="emplogout"
+            android:paddingBottom="20dp"/>
 
     </LinearLayout>
 

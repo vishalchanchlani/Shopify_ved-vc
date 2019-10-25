@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    android:paddingTop="10dp">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -19,19 +20,20 @@
                 android:id="@+id/imageproduct1"
                 android:layout_width="225dp"
                 android:layout_height="126dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+                tools:srcCompat="@drawable/apple1" />
 
             <TextView
                 android:id="@+id/description1"
                 android:layout_width="59dp"
                 android:layout_height="94dp"
-                android:text="Product 1" />
+                android:text="Apple 13'" />
 
             <Button
                 android:id="@+id/btnproduct1"
                 android:layout_width="108dp"
                 android:layout_height="match_parent"
-                android:text="Add to Cart" />
+                android:text="Add to Cart"
+                android:onClick="product1"/>
 
 
         </TableRow>
@@ -43,16 +45,18 @@
                 android:id="@+id/imageproduct2"
                 android:layout_width="225dp"
                 android:layout_height="126dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+                tools:srcCompat="@drawable/apple2"
+                />
 
             <TextView
                 android:id="@+id/description2"
                 android:layout_width="59dp"
                 android:layout_height="94dp"
-                android:text="Product 1" />
+                android:text="Apple 15'" />
 
             <Button
                 android:id="@+id/btnproduct2"
+                android:onClick="product2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Add to Cart" />
@@ -68,16 +72,17 @@
                 android:id="@+id/imageproduct3"
                 android:layout_width="225dp"
                 android:layout_height="126dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+                tools:srcCompat="@drawable/acer1" />
 
             <TextView
                 android:id="@+id/description3"
                 android:layout_width="59dp"
                 android:layout_height="94dp"
-                android:text="Product 1" />
+                android:text="Acer 15.6" />
 
             <Button
                 android:id="@+id/btnproduct3"
+                android:onClick="product3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Add to Cart" />
@@ -92,16 +97,17 @@
                 android:id="@+id/imageproduct4"
                 android:layout_width="225dp"
                 android:layout_height="126dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+                tools:srcCompat="@drawable/creativebook" />
 
             <TextView
                 android:id="@+id/description4"
                 android:layout_width="59dp"
                 android:layout_height="94dp"
-                android:text="Product 1" />
+                android:text="CreativeBook" />
 
             <Button
                 android:id="@+id/btnproduct4"
+                android:onClick="product4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Add to Cart" />
@@ -117,16 +123,17 @@
                 android:id="@+id/imageproduct5"
                 android:layout_width="225dp"
                 android:layout_height="126dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+                tools:srcCompat="@drawable/hp1" />
 
             <TextView
                 android:id="@+id/description5"
                 android:layout_width="59dp"
                 android:layout_height="94dp"
-                android:text="Product 1" />
+                android:text="HP 15.6'" />
 
             <Button
                 android:id="@+id/btnproduct5"
+                android:onClick="product5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Add to Cart" />
@@ -142,16 +149,17 @@
                 android:id="@+id/imageproduct6"
                 android:layout_width="225dp"
                 android:layout_height="126dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+                tools:srcCompat="@drawable/hp2" />
 
             <TextView
                 android:id="@+id/description6"
                 android:layout_width="59dp"
                 android:layout_height="94dp"
-                android:text="Product 1" />
+                android:text="HP 13'" />
 
             <Button
                 android:id="@+id/btnproduct6"
+                android:onClick="product6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Add to Cart" />
@@ -167,16 +175,17 @@
                 android:id="@+id/imageproduct7"
                 android:layout_width="225dp"
                 android:layout_height="126dp"
-                tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+                tools:srcCompat="@drawable/lenova1" />
 
             <TextView
                 android:id="@+id/description7"
                 android:layout_width="59dp"
                 android:layout_height="94dp"
-                android:text="Product 1" />
+                android:text="Lenova 15.6'" />
 
             <Button
                 android:id="@+id/btnproduct7"
+                android:onClick="product7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Add to Cart" />

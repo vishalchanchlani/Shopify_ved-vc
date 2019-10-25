@@ -5,7 +5,6 @@
     android:background="#EBE5C6">
 
 
-
     <TableLayout
 
         android:layout_width="wrap_content"
@@ -20,7 +19,7 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Customer Id :" />
+                android:text="Employee Id :" />
 
             <EditText
                 android:id="@+id/editText"
@@ -63,12 +62,13 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="37dp"
-                android:text="Login As Customer" />
+                android:text="Login As Company Associate"
+                android:id="@+id/enteremp"
+                android:onClick="enteremplgn"/>
         </TableRow>
 
 
     </TableLayout>
-
 
 
 
