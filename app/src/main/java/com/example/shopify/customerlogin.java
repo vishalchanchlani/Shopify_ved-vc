@@ -18,4 +18,6 @@ public class customerlogin extends AppCompatActivity {
         Intent i3 = new Intent( customerlogin.this,productpage.class);
         startActivity(i3);
     }
+
+
 }
